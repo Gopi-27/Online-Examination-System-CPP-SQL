@@ -33,7 +33,7 @@ terminateEnvironment(env);
 // you can only create the connection inside an enviroment with the reference of the environment
 // SYNTAX:
 // Connection *(connection_name) = (environment_name)->createConnection(username,password,"hostname:port/service_name");
-Connection *con = env->createConnection("system","xxxxx","localhost:1289/XEPB1);
+Connection *con = env->createConnection("system","xxxxx","localhost:1289/XEPB1");
 // DESTORY CONNECTION
 // SYNTAX :
 // terminateConnection(connection_name);
