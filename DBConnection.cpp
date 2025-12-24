@@ -9,7 +9,7 @@ Connection* DBConnection::connect() {
     if (!env)
         env = Environment::createEnvironment(Environment::DEFAULT);
 
-    Connection* conn = env->createConnection("system","root","localhost:1521/free");
+    Connection* conn = env->createConnection("xxxxx","xxxxxx","localhost:xxxx/xxxx");
 
     return conn;
 }
@@ -17,3 +17,4 @@ Connection* DBConnection::connect() {
 void DBConnection::close(Connection* conn) {
     env->terminateConnection(conn);
 }
+
